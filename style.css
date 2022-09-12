@@ -23,9 +23,15 @@ nav ul{
 
 .brand img{
     height: 60px;
+    padding: 0 10px 0 0;
 }
 
 .brand{
     display: flex;
     align-items: center;
+    font-weight: bolder;
+    font-size: 20px;
+}
+nav ul li{
+    padding: 0 12px;
 }
