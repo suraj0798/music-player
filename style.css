@@ -17,5 +17,15 @@ nav ul{
     display: flex;
     list-style-type: none;
     height: 60px;
-    background-color: antiquewhite;
+    background-color: white;
+    align-items: center;
+}
+
+.brand img{
+    height: 60px;
+}
+
+.brand{
+    display: flex;
+    align-items: center;
 }
