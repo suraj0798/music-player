@@ -35,3 +35,59 @@ nav ul{
 nav ul li{
     padding: 0 12px;
 }
+
+.container{
+    min-height: 68vh;
+    background-image: url(bagroundimg.jpg);
+    background-size: 100%;
+    background-color: #0e0b16;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    margin: 24px auto;
+    width: 70%;
+    border-radius: 12px;
+    padding: 34px;
+    
+    
+}
+
+.bottom{
+    position: sticky;
+    height: 100px;
+    background-color: #0e0b16;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+}
+
+.icons{
+    margin: 15px;
+}
+
+.icons i{
+    cursor: pointer;
+}
+
+#myProgressBar{
+    width: 80vw;
+}
+
+.songitem{
+    height: 50px;
+    display: flex;
+    background-color: white;
+    width: 80%;
+    color: #0e0b16;
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.songitem img{
+
+}
