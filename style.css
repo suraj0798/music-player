@@ -74,20 +74,36 @@ nav ul li{
 
 #myProgressBar{
     width: 80vw;
+    cursor: pointer;
+}
+
+.songitemcontainer{
+    margin-top: 44px;
 }
 
 .songitem{
     height: 50px;
     display: flex;
     background-color: white;
-    width: 80%;
     color: #0e0b16;
     margin: 12px 0;
     justify-content: space-between;
     align-items: center;
-
+    border-radius: 34px
 }
 
 .songitem img{
+    width: ;
+    height: 50px;
+    margin: 0 24px;
+    border-radius: 34px;
 
+}
+
+.timestamp{
+    margin: 0 24px;
+}
+
+.timestamp i{
+    cursor: pointer;
 }
