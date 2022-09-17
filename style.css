@@ -107,3 +107,13 @@ nav ul li{
 .timestamp i{
     cursor: pointer;
 }
+
+.songinfo{
+    position: absolute;
+    left: 12vw;
+}
+
+.songinfo img{
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+}
